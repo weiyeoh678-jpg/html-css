@@ -3,56 +3,71 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Selector practice</title>
+    <title>Resource selector lab</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <nav class="site-nav">
-      <a href="#features">Ideas</a>
-      <a href="#resources">Resources</a>
-      <a href="#contact">Contact</a>
+    <nav class="quick-nav">
+      <a href="#material-shelf">Materials</a>
+      <a href="#downloads">Downloads</a>
+      <span><a href="#contact">Contact</a></span>
     </nav>
 
-    <header class="hero">
-      <p class="eyebrow">Selector practice</p>
-      <h1>What you can build</h1>
-      <p>Use selectors to style one section without changing the whole page by accident.</p>
+    <header class="intro-panel">
+      <p class="kicker">Selector practice</p>
+      <h1>Pick selectors by reach</h1>
+      <p>
+        Style one section without accidentally changing every similar element
+        on the page.
+      </p>
     </header>
 
     <main>
-      <section class="features" id="features">
-        <h2>Project ideas</h2>
-        <p class="section-intro">Choose one small project and build it with HTML and CSS.</p>
+      <section class="material-shelf" id="material-shelf">
+        <h2>Workshop materials</h2>
+        <p class="shelf-intro">
+          Each card below points to one short practice note. The section has
+          its own links, but the rest of the page has links too.
+        </p>
 
-        <div class="card-grid">
-          <article class="feature-card">
-            <h3>Portfolio</h3>
-            <p>Build a personal page with an about section and project links.</p>
-            <a class="button-link" href="#portfolio">View idea</a>
+        <div class="material-list">
+          <article class="material-card">
+            <h3>HTML checklist</h3>
+            <p>Review the page pieces that every HTML document needs.</p>
+            <a class="lesson-link" href="#html-checklist">Open notes</a>
           </article>
 
-          <article class="feature-card">
-            <h3>Landing page</h3>
-            <p>Create a page for one product, event, or club activity.</p>
-            <a class="button-link" href="#landing">View idea</a>
+          <article class="material-card">
+            <h3>CSS notes</h3>
+            <p>Compare class selectors, descendant selectors, and child selectors.</p>
+            <a class="lesson-link" href="#css-notes">Open notes</a>
           </article>
 
-          <article class="feature-card">
-            <h3>Gallery</h3>
-            <p>Show drawings, photos, or screenshots in a simple collection.</p>
-            <a class="button-link" href="#gallery">View idea</a>
+          <article class="material-card">
+            <h3>Accessibility check</h3>
+            <p>Check whether hover and focus feedback are both visible.</p>
+            <a class="lesson-link" href="#accessibility-check">Open notes</a>
           </article>
         </div>
       </section>
 
-      <section class="resources" id="resources">
-        <h2>Resources</h2>
-        <p>Use small experiments to test selectors before adding more CSS.</p>
-        <a href="#notes">Read notes</a>
-      </section>
+      <section class="downloads" id="downloads">
+        <h2>Download files</h2>
+        <p>
+          Use short experiments to check whether a selector matches what you
+          expected.
+        </p>
+        <a href="#notes">Download starter</a>
+      </section><section class="tools">
+  <h2>Tools to practise with</h2>
+  <p>Use simple files first, then build larger pages.</p>
+  <a href="#editor">Code editor</a>
+  <a href="#browser">Browser</a>
+</section>
+
     </main>
 
-    <footer class="site-footer" id="contact">
+    <footer class="page-footer" id="contact">
       <p>Built with HTML and CSS.</p>
       <a href="#top">Back to top</a>
     </footer>
