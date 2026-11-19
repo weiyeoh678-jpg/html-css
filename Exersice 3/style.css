@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8fafc;
+  color: #111827;
+  line-height: 1.5;
+}
+h2 {
+  color: #111827;
+}
+.material-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 18px;
+}
+.material-shelf p {
+  color: #4b5563;
+}
+.material-card h3 {
+  margin-top: 0;
+  color: #1d4ed8;
+}
+.quick-nav {
+  padding: 20px;
+  background-color: white;
+}
+
+.quick-nav > a {
+  margin-right: 16px;
+  color: #111827;
+  font-weight: 700;
+  text-decoration: none;
+}
+.intro-panel,
+.material-shelf,
+.downloads,
+.page-footer {
+  max-width: 1000px;
+  margin: 32px auto;
+  padding: 0 24px;
+}
+
+.intro-panel {
+  padding-top: 48px;
+}
+
+.kicker {
+  color: #2563eb;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.material-shelf {
+  background-color: #eff6ff;
+  padding: 32px;
+  border-radius: 24px;
+}
+
+.shelf-intro {
+  max-width: 620px;
+}
+
+.material-list {
+  margin-top: 24px;
+}
+
+.material-card {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #dbeafe;
+  border-radius: 18px;
+  margin-top: 16px;
+}

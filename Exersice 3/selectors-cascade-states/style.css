@@ -13,16 +13,6 @@ h2 {
   padding: 20px;
   border-radius: 18px;
 }
-.material-card {
-  padding: 20px;
-}
-.material-shelf p {
-  color: #4b5563;
-}
-.material-card h3 {
-  margin-top: 0;
-  color: #1d4ed8;
-}
 .material-shelf p {
   color: #4b5563;
 }
@@ -44,7 +34,6 @@ h2 {
 .intro-panel,
 .material-shelf,
 .downloads,
-.tools,
 .page-footer {
   max-width: 1000px;
   margin: 32px auto;
@@ -82,69 +71,4 @@ h2 {
   border: 1px solid #dbeafe;
   border-radius: 18px;
   margin-top: 16px;
-}
-.lesson-link {
-  display: inline-block;
-  margin-top: 12px;
-  padding: 10px 14px;
-  background-color: #3b82f6;
-  color: white;
-  border-radius: 999px;
-  text-decoration: none;
-  font-weight: 700;
-}
-
-.material-shelf .lesson-link {
-  background-color: #2563eb;
-}
-
-.lesson-link:hover,
-.lesson-link:focus {
-  background-color: red;
-  outline: 12px solid green;
-  outline-offset: 10px;
-}
-
-.tools a:hover,
-.tools a:focus {
-  background-color:orange;
-  outline: 12px solid blue;
-  outline-offset: 10px;
-}
-
-.downloads {
-  background-color: white;
-  padding: 20px;
-  border: 1px solid #dbeafe;
-  border-radius: 18px;
-  margin-top: 16px;
-}
-a {
-  color: red;
-  background-color:rgb(255, 255, 255);
-}
-.lesson-link {
-  background-color: #3b82f6;
-}
-
-.material-shelf .lesson-link {
-  background-color: #2563eb;
-}
-.quick-nav > a {
-  color: #111827;
-}
-.material-card {
-  border: 1px solid #93c5fd;
-}
-
-.tools {
-  background-color: white;
-  padding: 20px;
-  border: 1px solid #dbeafe;
-  border-radius: 18px;
-  margin-top: 16px;
-}
-
-.tools a {
-    color: green;
 }
