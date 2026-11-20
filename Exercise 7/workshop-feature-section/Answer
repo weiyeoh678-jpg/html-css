@@ -16,4 +16,4 @@ To let the photo know where is the correct possition
 Just add a simple solution and let the text in a panel have their own background color.
 
 ## 6. Which change did you make? What changed in the browser, and which CSS property caused it?
-
+background-image: url("images/workshop-background.png"); in this css cause to change the photo
