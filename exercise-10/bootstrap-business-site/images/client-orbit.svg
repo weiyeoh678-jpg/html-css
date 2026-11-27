@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 80" role="img" aria-labelledby="title">
+  <title id="title">Orbit Supply logo</title>
+  <rect width="220" height="80" rx="18" fill="#f8fbff"/>
+  <ellipse cx="42" cy="40" rx="24" ry="11" fill="none" stroke="#1d4ed8" stroke-width="5"/>
+  <circle cx="42" cy="40" r="9" fill="#bfdbfe"/>
+  <circle cx="62" cy="36" r="5" fill="#0f766e"/>
+  <text x="78" y="49" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#132238">Orbit Supply</text>
+</svg>

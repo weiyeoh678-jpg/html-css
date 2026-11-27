@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 80" role="img" aria-labelledby="title">
+  <title id="title">Bloom Market logo</title>
+  <rect width="220" height="80" rx="18" fill="#f8fbff"/>
+  <circle cx="42" cy="40" r="8" fill="#0f766e"/>
+  <circle cx="42" cy="24" r="8" fill="#99f6e4"/>
+  <circle cx="42" cy="56" r="8" fill="#99f6e4"/>
+  <circle cx="26" cy="40" r="8" fill="#99f6e4"/>
+  <circle cx="58" cy="40" r="8" fill="#99f6e4"/>
+  <text x="78" y="49" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#132238">Bloom Market</text>
+</svg>

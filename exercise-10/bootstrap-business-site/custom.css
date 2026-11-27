@@ -1,0 +1,94 @@
+:root {
+  --brand-ink: #132238;
+  --brand-blue: #1d4ed8;
+  --brand-teal: #0f766e;
+  --brand-soft: #eef7ff;
+  --brand-line: #d6e4f0;
+  --bs-primary: #1d4ed8;
+  --bs-primary-rgb: 29, 78, 216;
+  --bs-link-color: #132238;
+  --bs-link-hover-color: #1d4ed8;
+}
+
+body {
+  color: var(--brand-ink);
+  background: #ffffff;
+}
+
+.site-header {
+  background: #ffffff;
+  border-bottom: 1px solid var(--brand-line);
+}
+
+.brand-link {
+  color: var(--brand-ink);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.brand-mark {
+  width: 40px;
+  height: 40px;
+}
+
+.hero-section {
+  background:
+    radial-gradient(circle at top left, rgba(29, 78, 216, 0.14), transparent 32rem),
+    linear-gradient(135deg, #f8fbff 0%, var(--brand-soft) 100%);
+}
+
+.hero-media img,
+.proof-media img {
+  width: 100%;
+  max-height: 360px;
+  border-radius: 1.5rem;
+  object-fit: cover;
+  box-shadow: 0 12px 28px rgba(19, 34, 56, 0.08);
+}
+
+.eyebrow {
+  color: var(--brand-teal);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.service-number {
+  color: var(--brand-blue);
+  font-weight: 800;
+}
+
+.service-item,
+.client-card,
+.contact-form {
+  border: 1px solid var(--brand-line);
+  border-radius: 1rem;
+  background: #ffffff;
+}
+
+.proof-list li::before {
+  content: "✓";
+  color: var(--brand-teal);
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.client-card {
+  min-height: 96px;
+}
+
+.client-card img {
+  max-width: 132px;
+  max-height: 36px;
+}
+
+.proof-section,
+.contact-section {
+  background: #f8fbff;
+}
+
+.site-footer {
+  background: var(--brand-ink);
+  color: #ffffff;
+}

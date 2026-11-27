@@ -1,0 +1,56 @@
+body {
+  background-color: #f8fafc;
+  color: #18212f;
+}
+
+.pattern-intro {
+  background:
+    linear-gradient(135deg, rgba(13, 110, 253, 0.12), rgba(32, 201, 151, 0.12)),
+    #f8fbff;
+}
+
+.lab-label {
+  color: #0d6efd;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.practice-panel {
+  border: 1px solid #d7e3f4;
+  border-radius: 1.25rem;
+  background-color: #ffffff;
+  padding: 2rem;
+}
+
+.topic-card {
+  border-color: #d7e3f4;
+  border-radius: 1rem;
+}
+
+.form-slice {
+  background-color: #eef5ff;
+}
+
+.study-section {
+  background-color: #f8fafc;
+  border-top: 1px solid #e2e8f0;
+}
+
+.study-card {
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.study-card:hover {
+  transform: translateY(-3px) scale(1.30);
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.08);
+}
+
+.study-badge {
+  background-color: #e0f2fe;
+  color: #0369a1;
+  font-weight: 600;
+}

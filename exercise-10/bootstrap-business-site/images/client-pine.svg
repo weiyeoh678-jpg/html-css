@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 80" role="img" aria-labelledby="title">
+  <title id="title">Pine Works logo</title>
+  <rect width="220" height="80" rx="18" fill="#f8fbff"/>
+  <path d="M42 18 62 52H22Z" fill="#bbf7d0"/>
+  <path d="M42 29 55 52H29Z" fill="#0f766e"/>
+  <rect x="38" y="52" width="8" height="10" fill="#92400e"/>
+  <text x="78" y="49" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#132238">Pine Works</text>
+</svg>
